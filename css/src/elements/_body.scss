@@ -1,0 +1,10 @@
+////
+/// Layout of the page
+///
+/// @group Elements
+///
+////
+
+/// Text default font and color
+html { min-height: 100%; }
+body { font-family: $font; font-weight: $fw-regular; color: $color-text; }

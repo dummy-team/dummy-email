@@ -1,0 +1,14 @@
+////
+/// Dimensions
+///
+/// @group Settings
+///
+////
+
+/// Max size of the page
+$max-width: 700px;
+
+/// Media query conditions
+/// Usage
+/// @media screen and #{$media-small} {  }
+$media-small: '(max-width: #{$max-width})';

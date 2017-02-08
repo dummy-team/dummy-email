@@ -1,0 +1,35 @@
+////
+/// Colors
+///
+/// @group Settings
+///
+////
+
+/// Grey scale
+$red: #ac232c;
+$orange: #e46804;
+$pink: #be5c9c;
+$purple: #6c488d;
+$border: #e6e6e6;
+$background: #eae7ee;
+$black: #313131;
+$grey: #9b9a9a;
+$grey-dark: #706f71;
+$white: #fff;
+
+// Transparent grey scale
+$black-50: rgba($black, .5);
+
+
+$green: #5cb85c;
+
+/// Branding colors
+$blue: #68bbdb;
+
+$color-main: $red;
+
+/// Functionnal colors
+$color-text: $black;
+$color-link: $color-main;
+$color-error: $red;
+$color-valid: $green;

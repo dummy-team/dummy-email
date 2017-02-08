@@ -1,0 +1,22 @@
+extends ../layout/layout.pug
+
+block content
+
+  table.header
+    tr
+      td
+        table
+          tr
+            td.column
+              center
+                +spacer(15)
+                  newsletter title
+                +spacer(20)
+            td.column
+              table
+                tr
+                  td(style="width: 50%")
+                    p.align-right.header-day 01
+                  td(style="width: 50%")
+                    p.align-left.header-month Janv<br>1970
+              +spacer(5)

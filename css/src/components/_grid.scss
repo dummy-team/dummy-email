@@ -1,0 +1,20 @@
+.container {
+  width: $max-width;
+
+  @media only screen and #{$media-small} {
+    width: 100%!important;
+  }
+}
+
+.column {
+  @media only screen and #{$media-small} {
+    display: inline-block!important;
+    width: 100%!important;
+  }
+}
+
+.hide-small {
+  @media only screen and #{$media-small} {
+    display: none !important;
+  }
+}

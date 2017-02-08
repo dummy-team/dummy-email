@@ -1,0 +1,44 @@
+////
+/// Headings
+///
+/// @group Elements
+///
+////
+
+/// Contents
+li { margin: 5px 0; }
+p { margin: 15px 0; }
+p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea { font-size: 15px; line-height: 1.6; }
+td p, td .bodytext { Margin: 0; margin: 0; font-family: $font; }
+strong, optgroup { font-weight: $fw-bold; }
+
+table {
+  width: 100%;
+  Margin:0 auto;
+  border-collapse:collapse;
+  border-spacing:0;
+  float:none;
+  margin:0 auto;
+  padding:0;
+  text-align:center;
+  vertical-align:top;
+}
+
+tr {
+  padding:0;
+  text-align:left;
+  vertical-align:top
+}
+
+td {
+  -moz-hyphens:auto;
+  -webkit-hyphens:auto;
+  mso-line-height-rule:exactly;
+  Margin:0;
+  margin:0;
+  padding: 0;
+  border-collapse:collapse!important;
+  text-align:left;
+  vertical-align:top;
+  word-wrap:break-word
+}

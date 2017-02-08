@@ -1,0 +1,22 @@
+.header {
+  background-color: $color-main;
+
+  td {
+    vertical-align: middle;
+  }
+
+  &-day {
+    font-size: 27px;
+    line-height: 1.3;
+    color: $white;
+    padding-right: 5px;
+    font-weight: $fw-bold;
+  }
+
+  &-month {
+    font-size: 12px;
+    line-height: 1.3;
+    color: $white;
+    font-weight: $fw-bold;
+  }
+}

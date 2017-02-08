@@ -1,0 +1,10 @@
+mixin spacer(height)
+  table(align="center")
+    tr
+      td(height=height+"px", style="width: 100%; line-height: "+height+"px;") &nbsp;
+
+mixin container
+  table.container
+    tr
+      td
+        block
