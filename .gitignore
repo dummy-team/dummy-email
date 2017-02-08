@@ -7,3 +7,5 @@ dist
 config.json
 
 *.css*
+*.html*
+!normalize.css

@@ -13,8 +13,31 @@
   }
 }
 
+.column-50 {
+  width: ($max-width - 2 * $page-padding - $page-gutter) / 2;
+}
+
+.column-gutter {
+  width: 30px;
+}
+
+
+.page-padding {
+  width: $page-padding;
+  @media only screen and #{$media-small} {
+    width: 20px!important;
+  }
+}
+
+
 .hide-small {
   @media only screen and #{$media-small} {
     display: none !important;
+  }
+}
+
+.force-height {
+  @media only screen and #{$media-small} {
+    height: auto !important;
   }
 }
